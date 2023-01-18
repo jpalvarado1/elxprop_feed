@@ -4,8 +4,9 @@
         "lib/elxpro_feed_web.ex",
         "lib/elxpro_feed_web/telemetry.ex",
         "lib/elxpro_feed_web/router.ex",
+        "lib/elxpro_feed_web/components/core_components.ex",
         "lib/elxpro_feed_web/views/error_helpers.ex",
-        "lib/support/data_case.ex"
+        "test/support/data_case.ex"
     ],
     "coverage_options": {
         "treat_no_relevant_lines_as_covered": true,

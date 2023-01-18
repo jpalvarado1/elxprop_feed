@@ -58,10 +58,10 @@ defmodule ElxproFeed.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
-      {:excoveralls, "~> 0.13.0", only: :test},
-      {:sobelow, "~> 0.8", only: :dev},
-      {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
+      {:excoveralls, "~> 0.15.2", only: :test},
+      {:sobelow, "~> 0.11.1", only: :dev},
+      {:mix_test_watch, "~> 1.1", only: [:dev, :test], runtime: false}
     ]
   end
 
